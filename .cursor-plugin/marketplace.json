@@ -1,0 +1,16 @@
+{
+  "name": "skimlight",
+  "owner": {
+    "name": "AIXion"
+  },
+  "metadata": {
+    "description": "SkimLight plugins for Cursor"
+  },
+  "plugins": [
+    {
+      "name": "skimlight",
+      "source": "cursor",
+      "description": "Ask the user for decisions through SkimLight and keep working. Answers come from their Mac or iPhone, and you pick them up later."
+    }
+  ]
+}

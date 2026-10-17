@@ -1,0 +1,14 @@
+{
+  "name": "skimlight",
+  "description": "SkimLight plugins for Claude Code",
+  "owner": {
+    "name": "AIXion"
+  },
+  "plugins": [
+    {
+      "name": "skimlight",
+      "source": "./claude-code",
+      "description": "Ask the user for decisions through SkimLight and keep working. Answers come from their Mac or iPhone, and you pick them up later."
+    }
+  ]
+}

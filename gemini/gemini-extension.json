@@ -1,0 +1,12 @@
+{
+  "name": "skimlight",
+  "version": "0.1.0",
+  "description": "Ask the user for decisions through SkimLight and keep working. Answers come from their Mac or iPhone, and you pick them up later.",
+  "mcpServers": {
+    "skimlight": {
+      "command": "${HOME}/.skimlight/bin/skimlight-mcp",
+      "args": ["--tool", "gemini", "--folder", "${workspacePath}"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

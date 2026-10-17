@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skimlight",
+  "version": "0.1.0",
+  "description": "Ask the user for decisions through SkimLight and keep working. Answers come from their Mac or iPhone, and you pick them up later.",
+  "author": {
+    "name": "AIXion"
+  },
+  "homepage": "https://skimlight.com",
+  "license": "MIT",
+  "keywords": ["decisions", "inbox", "mcp", "async"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SkimLight",
+        "shortDescription": "Ask the user for decisions and keep working",
+        "developerName": "AIXion",
+        "category": "Productivity",
+        "websiteURL": "https://skimlight.com"
+      }
+    }
+  }
+}

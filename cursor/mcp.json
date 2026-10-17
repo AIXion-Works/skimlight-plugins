@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skimlight": {
+      "command": "${userHome}/.skimlight/bin/skimlight-mcp",
+      "args": ["--tool", "cursor"]
+    }
+  }
+}

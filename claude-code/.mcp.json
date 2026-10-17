@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skimlight": {
+      "command": "${HOME}/.skimlight/bin/skimlight-mcp",
+      "args": ["--tool", "claude-code"]
+    }
+  }
+}
