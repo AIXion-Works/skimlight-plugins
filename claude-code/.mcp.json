@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "skimlight": {
-      "command": "${HOME}/.skimlight/bin/skimlight-mcp",
+      "command": "${CLAUDE_PLUGIN_ROOT}/scripts/skimlight-mcp",
       "args": ["--tool", "claude-code"]
     }
   }

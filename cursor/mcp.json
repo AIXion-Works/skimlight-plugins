@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "skimlight": {
-      "command": "${userHome}/.skimlight/bin/skimlight-mcp",
+      "command": "${CURSOR_PLUGIN_ROOT}/scripts/skimlight-mcp",
       "args": ["--tool", "cursor"]
     }
   }

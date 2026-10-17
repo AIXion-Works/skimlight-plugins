@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "skimlight",
+  "description": "Ask the user for decisions through SkimLight and keep working. Answers come from their Mac or iPhone, and you pick them up later."
+}

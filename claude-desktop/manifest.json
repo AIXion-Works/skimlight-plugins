@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/mcpb/main/dist/mcpb-manifest.schema.json",
+  "manifest_version": "0.3",
+  "name": "skimlight",
+  "display_name": "SkimLight",
+  "version": "0.1.0",
+  "description": "Ask the user for decisions through SkimLight and keep working. Answers come from their Mac or iPhone.",
+  "long_description": "Claude posts a question to SkimLight, keeps working, and picks up the answer later. You answer on your Mac or iPhone. This extension only starts the bridge that the SkimLight Mac app installs at ~/.skimlight/bin/skimlight-mcp, so install the SkimLight Mac app first.",
+  "author": {
+    "name": "AIXion",
+    "url": "https://skimlight.com"
+  },
+  "homepage": "https://skimlight.com",
+  "documentation": "https://docs.skimlight.com",
+  "support": "https://github.com/AIXion-Works/skimlight-plugins/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIXion-Works/skimlight-plugins.git"
+  },
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.cjs",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.cjs", "--tool", "claude-desktop"]
+    }
+  },
+  "tools": [
+    {
+      "name": "ask",
+      "description": "Post a question to the user's SkimLight inbox"
+    },
+    {
+      "name": "answers",
+      "description": "Pick up answers the user has given"
+    },
+    {
+      "name": "cancel",
+      "description": "Withdraw a question that is no longer needed"
+    }
+  ],
+  "keywords": ["decisions", "inbox", "mcp", "async"],
+  "license": "MIT",
+  "privacy_policies": ["https://skimlight.com/privacy"],
+  "compatibility": {
+    "claude_desktop": ">=1.0.0",
+    "platforms": ["darwin"],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}

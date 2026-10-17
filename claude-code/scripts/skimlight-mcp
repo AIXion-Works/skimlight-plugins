@@ -1,0 +1,8 @@
+#!/bin/sh
+# Starts the bridge that the SkimLight Mac app installs. Arguments pass through.
+bridge="$HOME/.skimlight/bin/skimlight-mcp"
+if [ ! -x "$bridge" ]; then
+  echo "SkimLight bridge not found at $bridge. Install the SkimLight app for Mac." >&2
+  exit 1
+fi
+exec "$bridge" "$@"

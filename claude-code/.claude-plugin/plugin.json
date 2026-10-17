@@ -7,6 +7,11 @@
     "name": "AIXion"
   },
   "homepage": "https://skimlight.com",
+  "repository": "https://github.com/AIXion-Works/skimlight-plugins",
   "license": "MIT",
-  "keywords": ["decisions", "inbox", "mcp", "async"]
+  "keywords": ["decisions", "inbox", "mcp", "async"],
+  "documentationUrl": "https://docs.skimlight.com",
+  "supportUrl": "https://github.com/AIXion-Works/skimlight-plugins/issues",
+  "privacyPolicyUrl": "https://skimlight.com/privacy",
+  "termsOfServiceUrl": "https://skimlight.com/terms"
 }

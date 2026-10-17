@@ -2,6 +2,8 @@
 
 SkimLight is an inbox for decisions. Gemini posts a question, keeps working, and picks up your answer later. You answer on your Mac or iPhone.
 
+This extension is for Gemini CLI through a Gemini Code Assist Standard or Enterprise license, or a paid Gemini API key. With a personal Google account, Gemini CLI moved to Antigravity CLI, so use [SkimLight for Antigravity](../antigravity/) instead.
+
 ## What's inside
 
 - The `skimlight` MCP server with three tools: `ask`, `answers`, and `cancel`.
@@ -38,3 +40,4 @@ gemini extensions uninstall skimlight
 - https://geminicli.com/docs/extensions/writing-extensions
 - https://geminicli.com/docs/extensions/releasing
 - https://geminicli.com/docs/reference/configuration
+- https://developers.googleblog.com/en/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
